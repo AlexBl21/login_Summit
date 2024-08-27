@@ -8,16 +8,20 @@
 
 /*cuerpo*/
 body {
-    margin: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0rem;
+    padding: 0;
     height: 100vh;
     background-image: url("/img/Geometric_background_generated.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
+main{
+    padding: 2rem;
+    background-color: #f2f2f2;
+}
+
 
 .container {
     margin: 200px auto;
@@ -29,7 +33,7 @@ body {
     align-items: relative;
     justify-content: center;
     gap: 15px;
-    width: 400px;
+    /* width: 400px; */
     background-color: #fffcfc9e;
     backdrop-filter: blur(1px);
     box-shadow: -8px -8px 15px rgb(88, 113, 115);
@@ -150,7 +154,7 @@ td {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: rgb(100,34,76);
     color: white;
 }
 

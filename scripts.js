@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
         registroForm.addEventListener("submit", function (event) {
             event.preventDefault();
             var newUser = document.getElementById("newUser").value;
-            var newPass = document.getElementById("newPassword").value;
-            alert("Usuario registrado: " + newuser);
+            var newPassword = document.getElementById("newPassword").value;
+            alert("Usuario registrado: " + newUser);
             window.location.href = "index.html";
         });
     }
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var tablaEstudiantes = document.querySelector(
         "#contenedorEstudiantes table tbody"
     );
-    
+
     var btnAgregarEstudiante = document.getElementById("agregarEstudiante");
     if (btnAgregarEstudiante) {
         btnAgregarEstudiante.addEventListener("click", function () {
@@ -72,18 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
             var nombre = prompt("Ingrese el nombre de la asignatura:");
             if (nombre) {
                 agregarFila(tablaAsignaturas, id, nombre);
-            }
-        });
-    }
-
-    var tablaEstudiantes = document.querySelector("#contenedorEstudiantes table tbody");
-    var btnAgregarEstudiante = document.getElementById("agregarEstudiante");
-    if (btnAgregarEstudiante) {
-        btnAgregarEstudiante.addEventListener("click", function () {
-            var id = tablaEstudiantes.rows.length + 1;
-            var nombre = prompt("Ingrese el nombre del estudiante:");
-            if (nombre) {
-                agregarFila(tablaEstudiantes, id, nombre);
             }
         });
     }
