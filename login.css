@@ -128,3 +128,47 @@ nav ul li a:hover{
 .contenido.active{
     display: block;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    }
+    
+    table, th, td {
+    border: 1px solid #ddd;
+    }
+    
+    th, td {
+    padding: 8px;
+    text-align: left;
+    }
+    
+    th {
+    background-color: #4CAF50;
+    color: white;
+    }
+    
+    tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    
+    tr:hover {
+    background-color: #ddd;
+    }
+    
+    .btn-editar {
+    background-color: #FFD700; /* Color dorado para el botón de editar */
+    }
+    
+    .btn-editar:hover {
+    background-color: #FFC107; /* Color más claro para el hover */
+    }
+    
+    .btn-eliminar {
+    background-color: #FF6347; /* Color rojo tomate para el botón de eliminar */
+    }
+    
+    .btn-eliminar:hover {
+    background-color: #FF4500; /* Color más oscuro para el hover */
+    }
