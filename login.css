@@ -5,8 +5,9 @@
 * {
     font-family: 'Ubuntu', sans-serif;
 }
+
 /*cuerpo*/
-body{
+body {
     margin: 0%;
     display: flex;
     justify-content: center;
@@ -15,25 +16,26 @@ body{
     background-image: url("/img/Geometric_background_generated.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.container{
-    margin:200px auto;
+
+.container {
+    margin: 200px auto;
     display: flex;
     flex-direction: column;
     position: relative;
     padding: 40px 80px;
     border-radius: 15px;
-    align-items:relative;
+    align-items: relative;
     justify-content: center;
     gap: 15px;
     width: 400px;
     background-color: #fffcfc9e;
-    backdrop-filter: blur(1px) ;
+    backdrop-filter: blur(1px);
     box-shadow: -8px -8px 15px rgb(88, 113, 115);
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -63,13 +65,13 @@ label input {
     transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
 }
 
-label input:hover{
+label input:hover {
     background-color: white;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px rgb(112, 195, 195);
 }
 
-label input:focus{
+label input:focus {
     background-color: white;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px rgb(112, 195, 195);
@@ -93,14 +95,14 @@ label input:focus{
     transform: scale(1.10);
 }
 
-header{
-    background-color: rgb(76,52,146);
+header {
+    background-color: rgb(76, 52, 146);
     color: white;
     padding: 10px 0;
     text-align: center;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -108,24 +110,24 @@ nav ul{
     background-color: #333;
 }
 
-nav ul li{
+nav ul li {
     margin: 20px;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     text-decoration: overline;
 }
 
-.contenido{
+.contenido {
     display: none;
 }
 
-.contenido.active{
+.contenido.active {
     display: block;
 }
 
@@ -133,42 +135,49 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    }
-    
-    table, th, td {
+}
+
+table,
+th,
+td {
     border: 1px solid #ddd;
-    }
-    
-    th, td {
+}
+
+th,
+td {
     padding: 8px;
     text-align: left;
-    }
-    
-    th {
+}
+
+th {
     background-color: #4CAF50;
     color: white;
-    }
-    
-    tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #f2f2f2;
-    }
-    
-    tr:hover {
+}
+
+tr:hover {
     background-color: #ddd;
-    }
-    
-    .btn-editar {
-    background-color: #FFD700; /* Color dorado para el botón de editar */
-    }
-    
-    .btn-editar:hover {
-    background-color: #FFC107; /* Color más claro para el hover */
-    }
-    
-    .btn-eliminar {
-    background-color: #FF6347; /* Color rojo tomate para el botón de eliminar */
-    }
-    
-    .btn-eliminar:hover {
-    background-color: #FF4500; /* Color más oscuro para el hover */
-    }
+}
+
+.btn-editar {
+    background-color: #FFD700;
+    /* Color dorado para el botón de editar */
+}
+
+.btn-editar:hover {
+    background-color: #FFC107;
+    /* Color más claro para el hover */
+}
+
+.btn-eliminar {
+    background-color: #FF6347;
+    /* Color rojo tomate para el botón de eliminar */
+}
+
+.btn-eliminar:hover {
+    background-color: #FF4500;
+    /* Color más oscuro para el hover */
+}
