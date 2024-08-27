@@ -10,7 +10,6 @@
 body {
     margin: 0rem;
     padding: 0;
-    height: 100vh;
     background-image: url("/img/Geometric_background_generated.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +23,8 @@ main{
 
 
 .container {
-    margin: 200px auto;
+    max-width: 400px;
+    margin: 120px auto;
     display: flex;
     flex-direction: column;
     position: relative;
